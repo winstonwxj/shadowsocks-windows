@@ -38,7 +38,7 @@ namespace Shadowsocks
                 "Shadowsocks Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                 Process.Start(
-                    "http://dotnetsocial.cloudapp.net/GetDotnet?tfm=.NETFramework,Version=v4.6.2");
+                    "https://www.microsoft.com/download/details.aspx?id=53344");
                 return;
             }
 
@@ -127,7 +127,7 @@ namespace Shadowsocks
                             Thread.Sleep(10 * 1000);
                             try
                             {
-                                MainController.Start();
+                                MainController.Start(false);
                                 Logging.Info("controller started");
                             }
                             catch (Exception ex)

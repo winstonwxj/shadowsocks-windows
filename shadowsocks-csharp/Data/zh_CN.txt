@@ -80,7 +80,7 @@ If server has a plugin, proxy will not be used=若服务器含有插件，代理
 &Open Location=在资源管理器中打开(&O)
 E&xit=退出(&X)
 &View=视图(&V)
-&Clean Logs=清空日志(&C)
+&Clear Logs=清空日志(&C)
 Change &Font=设置字体(&F)
 &Wrap Text=自动换行(&W)
 &Top Most=置顶(&T)
@@ -107,7 +107,8 @@ Switch share over LAN=切换局域网共享
 Show Logs=显示日志
 Switch to prev server=切换上个服务器
 Switch to next server=切换下个服务器
-Reg All=注册全部热键
+Reg All=注册全部快捷键
+Reg Hotkeys At Startup=启动时注册快捷键
 
 # Messages
 
@@ -144,6 +145,9 @@ Unsupported operating system, use Windows Vista at least.=不支持的操作系�
 Unsupported .NET Framework, please update to 4.6.2 or later.=当前 .NET Framework 版本过低，请升级至4.6.2或更新版本。
 Proxy request failed=代理请求失败
 Proxy handshake failed=代理握手失败
-Register hotkey failed=注册热键失败
-Cannot parse hotkey: {0}=解析热键失败: {0}
+Register hotkey failed=注册快捷键失败
+Cannot parse hotkey: {0}=解析快捷键失败: {0}
 Timeout is invalid, it should not exceed {0}=超时无效，不应超过 {0}
+
+Error occured when process proxy setting, do you want reset current setting and retry?=处理代理设置时发生错误，是否重置当前代理设置并重试？
+Unrecoverable proxy setting error occured, see log for detail=发生不可恢复的代理设置错误，查看日志以取得详情
